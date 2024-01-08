@@ -140,7 +140,7 @@ fetch()
             });
             const mailOptions = {
                 from: email,
-                to: 'knowl3dg3cav3@gmail.com',
+                to: '[email list]',
                 subject: lat.title,
                 text: lat.content
             };
