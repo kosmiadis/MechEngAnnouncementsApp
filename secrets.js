@@ -1,2 +1,3 @@
-export const email = 'vageliskosmiadisfiverr@gmail.com'
-export const password = 'V@g3l1s!F1v3rr@321#'
+module.exports.email = 'vageliskosmiadisfiverr@gmail.com'
+module.exports.password = 'hyau qlyt glcu pqmb'
+module.exports.uri = "mongodb+srv://VagelisKosmiadis:vagelisAtlas%40321@cluster0.cdrxd2z.mongodb.net/?retryWrites=true&w=majority"
