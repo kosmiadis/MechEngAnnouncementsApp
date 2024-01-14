@@ -34,7 +34,6 @@ const searchForAnnouncements = async () => {
                         await saveAnnouncementToDB(lat)
                     })
                 }
-<<<<<<< HEAD
             }
         }
         else {
@@ -44,21 +43,3 @@ const searchForAnnouncements = async () => {
 }
 
 searchForAnnouncements()
-=======
-                
-            });
-            const mailOptions = {
-                from: email,
-                to: '[email list]',
-                subject: lat.title,
-                text: lat.content
-            };
-            transporter.sendMail(mailOptions)
-            .then(res => {
-                console.log(res)
-            })
-            .catch(e => console.log('Something went wrong ' + e))
-        })
-    }
-})
->>>>>>> 383033f92767f7f379dc3977e81857250280df86
